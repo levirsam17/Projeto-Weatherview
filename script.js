@@ -1,5 +1,5 @@
 // Minha chave da OpenWeather
-const API_KEY = "bd2d559f8a825063f1b0450e64a744ea";
+const API_KEY = "";
 
 // Pegando os elementos do HTML
 const campoCidade = document.getElementById("cidade");
