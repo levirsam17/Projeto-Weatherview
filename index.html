@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Faz a página se adaptar melhor ao celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WeatherView</title>
+
+    <!-- Nosso arquivo de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>WeatherView</h1>
+            <p>Consulte o clima de qualquer cidade</p>
+        </header>
+
+        <!-- Campo onde o usuário vai digitar a cidade -->
+         
+        <section class="busca">
+
+    <div class="campo-busca">
+
+        <input
+            type="text"
+            id="cidade"
+            placeholder="Digite uma cidade..."
+            autocomplete="off"
+        >
+
+        <div id="sugestoes"></div>
+
+    </div>
+
+    <button id="btnBuscar">🔍 Buscar</button>
+
+</section>
+
+        <!--
+            Aqui vão aparecer as informações do clima.
+            Por enquanto deixei alguns dados de exemplo,
+            depois o JavaScript vai substituir tudo pelos dados da API.
+        -->
+        <section class="clima" id="resultado">
+
+            <h2 id="nomeCidade">Pesquise Uma Cidade</h2>
+
+            <div class="temperatura">
+                <img
+                    id="iconeClima"
+                    src="https://openweathermap.org/img/wn/03d@2x.png"
+                    alt="Ícone do clima"
+                >
+                
+                 <span id="temperatura">--°C</span>
+
+            </div>
+
+            <p id="descricao">--</p>
+
+            <div class="informacoes">
+
+                <div class="info">
+                    <span>💧</span>
+                    <strong id="umidade">--%</strong>
+                    <small>Umidade</small>
+                </div>
+
+                <div class="info">
+                    <span>💨</span>
+                    <strong id="vento">--</strong>
+                    <small>Vento</small>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Mensagem para quando acontecer algum erro -->
+        <p id="mensagemErro"></p>
+
+    </main>
+
+    <!-- Nosso JavaScript fica no final para o HTML carregar primeiro -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
