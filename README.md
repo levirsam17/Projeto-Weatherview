@@ -33,11 +33,11 @@ API: OpenWeatherMap API
 Clone o repositório:
 
 Bash
-git clone https://github.com/seu-usuario/weatherview.git
+git clone https://github.com/levirsam17/Projeto-Weatherview.git
 Acesse a pasta do projeto:
 
 Bash
-cd weatherview
+cd Projeto-Weatherview
 Abra o projeto:
 
 Basta abrir o arquivo index.html em seu navegador de preferência ou utilizar a extensão Live Server no VS Code.
