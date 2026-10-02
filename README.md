@@ -5,7 +5,7 @@ Uma aplicação web simples e intuitiva para consulta de previsão do tempo em t
 🚀 Demonstração
 Você pode acessar a aplicação online através do link:
 
-🔗 WeatherView
+https://weatherview.site.je/
 
 ✨ Funcionalidades
 Busca Global: Pesquise a condição meteorológica de qualquer cidade.
