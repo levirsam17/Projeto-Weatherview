@@ -34,10 +34,12 @@ Clone o repositório:
 
 Bash
 git clone https://github.com/levirsam17/Projeto-Weatherview.git
+
 Acesse a pasta do projeto:
 
 Bash
 cd Projeto-Weatherview
+
 Abra o projeto:
 
 Basta abrir o arquivo index.html em seu navegador de preferência ou utilizar a extensão Live Server no VS Code.
